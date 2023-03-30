@@ -4,7 +4,7 @@ public class Main {
 
   public static void main(String[] args) {
     Main myObj = new Main();
-    myObj.x = 50; // will generate an error: cannot assign a value to a final variable
+    myObj.x = 51; // will generate an error: cannot assign a value to a final variable
     myObj.PI = 25; // will generate an error: cannot assign a value to a final variable
     System.out.println(myObj.x);
   }
